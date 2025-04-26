@@ -10,6 +10,8 @@ const DashboardLayout = () => {
         <Sidebar />
         <main className="flex-grow p-6 bg-gray-50">
           <Outlet />
+            {/*<Footer/>*/}
+
         </main>
       </div>
     </div>

@@ -10,7 +10,7 @@ const RegisterPage = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        register({ name, email, password });
+        register(email, password, name);
     };
 
     return (
